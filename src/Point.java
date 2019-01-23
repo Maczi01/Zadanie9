@@ -1,16 +1,29 @@
 public class Point {
 
-    private int a;
+    private double pointX;
+    private double pointY;
 
-    public Point(int a) {
-        this.a = a;
+    public Point() {
     }
 
-    public int getA() {
-        return a;
+    public Point(double pointX, double pointY) {
+        this.pointX = pointX;
+        this.pointY = pointY;
     }
 
-    public void setA(int a) {
-        this.a = a;
+    public double getPointX() {
+        return pointX;
+    }
+
+    public void setPointX(double pointX) {
+        this.pointX = pointX;
+    }
+
+    public double getPointY() {
+        return pointY;
+    }
+
+    public void setPointY(double pointY) {
+        this.pointY = pointY;
     }
 }
